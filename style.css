@@ -9,13 +9,14 @@ body {
     max-width: 600px;
     margin: 20px auto;
     background: white;
-    padding: 20px;
+    padding: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .header {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .header img {
@@ -24,6 +25,7 @@ body {
 
 .content {
     text-align: center;
+    padding: 20px;
 }
 
 .content h1 {
@@ -38,6 +40,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0;
+    padding: 0 20px;
 }
 
 .detail {
@@ -67,13 +70,18 @@ button {
 }
 
 .footer {
+    background-color: #b2b2b2;
     text-align: center;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .footer p {
     margin: 5px 0;
-    color: #555;
+    color: #2d2d2d;
 }
 
 .social-media {
