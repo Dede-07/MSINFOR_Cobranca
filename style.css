@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.invoice-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header img {
+    max-width: 200px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    border-radius: 15px;
+    background-color: #001f42;
+    color: white;
+    padding: 15px 0;
+}
+
+.invoice-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.detail {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.detail strong {
+    display: block;
+    color: #333;
+}
+
+.detail span {
+    color: #555;
+}
+
+button {
+    background-color: #001f42;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    width: 200px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
